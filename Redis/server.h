@@ -28,11 +28,11 @@ typedef  sockaddr SA;
 
 class Socket_reciver
 {
-    public:
+public:
     Socket_reciver();
-    void    accept_clients();
+    void accept_clients();
 
-    private:
+private:
     int listenfd;
     int* connfd;
     sockaddr_in serv_addr;
