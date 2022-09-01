@@ -25,7 +25,7 @@ Socket_sender::Socket_sender()
 	}
 }
 
-void    Socket_sender::send_and_recv(const string& send_line)
+void Socket_sender::send_and_recv(const string& send_line)
 {
 	int n = 0;
 
